@@ -10,6 +10,7 @@ namespace TestAutoUpdate
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

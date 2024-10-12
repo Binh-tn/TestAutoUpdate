@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Invoice System</title>
+    <style>
+        /* Reset some default browser styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+            .nav-links li {
+                display: inline;
+                margin: 0 10px;
+            }
+
+            .nav-links a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: #fff;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .features, .about, .contact {
+            padding: 40px;
+            text-align: center;
+        }
+
+            .features h2, .about h2, .contact h2 {
+                margin-bottom: 20px;
+            }
+
+        .feature-item {
+            margin-bottom: 20px;
+        }
+
+            .feature-item h3 {
+                margin-bottom: 10px;
+            }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E-Invoice</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to the Electronic Invoice System</h1>
+            <p>Create, manage, and track your invoices easily</p>
+            <a href="#get-started" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="feature-item">
+            <h3>Easy Invoice Creation</h3>
+            <p>Quickly generate professional invoices with just a few clicks.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Track Payments</h3>
+            <p>Monitor payment status and get notifications when invoices are paid.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Secure Storage</h3>
+            <p>All your data is securely stored and easily accessible anytime.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are committed to providing the best electronic invoicing system to help businesses manage their finances efficiently.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Invoice System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
