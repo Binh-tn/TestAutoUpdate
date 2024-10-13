@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoUpdaterDotNET;
 
 namespace TestAutoUpdate
 {
@@ -10,7 +6,7 @@ namespace TestAutoUpdate
     {
         static void Main(string[] args)
         {
-
+            AutoUpdater.Start("https://binh-tn.github.io/TestAutoUpdate/update.xml");
         }
     }
 }
